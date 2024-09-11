@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu{
+    width: 1000px;
+    margin: 50px;
+    background-color: rgb(87, 197, 161);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex; 
+    
+}
+.sidebar-satu{
+    order: -1;
+    background-color: rgb(57, 132, 107);
+    padding-right: 50px;
+}
+.kolom-utama{
+    background-color: rgb(103, 153, 136);
+}
+.sidebar-dua{
+    background-color:  rgb(57, 132, 107);
+    padding-right: 50px;
+}
