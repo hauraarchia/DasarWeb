@@ -19,7 +19,6 @@
             $nama = $_POST["nama"];
             echo "Data berhasil disimpan";
         }
-        # code...
     }
     ?>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
